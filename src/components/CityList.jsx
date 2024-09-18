@@ -2,7 +2,7 @@ import CityItem from './CityItem';
 import styles from './CityList.module.css';
 import Spinner from './Spinner';
 
-function CityList(isLoading, cities) {
+function CityList({ isLoading, cities }) {
   if (isLoading) return <Spinner />;
 
   return (
@@ -13,5 +13,6 @@ function CityList(isLoading, cities) {
     </ul>
   );
 }
+
 
 export default CityList;
