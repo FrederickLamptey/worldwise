@@ -17,6 +17,7 @@
 
 // export default CityList;
 
+import CityItem from './CityItem';
 import styles from './CityList.module.css';
 import Spinner from './Spinner';
 
@@ -26,7 +27,8 @@ function CityList({ cities, isLoading }) {
   
   return (
     <ul className={styles.cityList}>
-      <li>LIST</li>
+      {/* <li>LIST</li> */}
+      {cities.map(city => <CityItem city={city} key={ city.id} />)}
     </ul>
   )
 }
