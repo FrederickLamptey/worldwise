@@ -1,28 +1,11 @@
-// import CityItem from './CityItem';
-// import styles from './CityList.module.css';
-// import Spinner from './Spinner';
-
-// function CityList(props) {
-//   if (props.isLoading) return <Spinner />;
-
-//   return (
-//     <ul className={styles.cityList}>
-//       {props.cities.map((city) => (
-//         <CityItem city={city} key={city.id} />
-//       ))}
-//     </ul>
-//   );
-// }
-
-
-// export default CityList;
-
 import CityItem from './CityItem';
 import styles from './CityList.module.css';
 import Spinner from './Spinner';
 import Message from './Message'
+import { useCities } from '../contexts/CitiesContext';
 
-function CityList({ cities, isLoading }) {
+function CityList() {
+  const {cities, isLoading} = useCities()
   
   if (isLoading) return <Spinner />;
 
