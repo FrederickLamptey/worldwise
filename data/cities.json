@@ -1,40 +1,52 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
+      "id": "b6de",
+      "cityName": "Nowogrodek Pomorski",
+      "country": "Poland",
+      "emoji": "🇵🇱",
+      "date": "2024-09-27T23:11:08.535Z",
+      "notes": "kkk",
       "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
+        "lat": "52.908902047770255",
+        "lng": "15.117187500000002"
+      }
     },
     {
-      "cityName": "Madrid",
+      "id": "96b3",
+      "cityName": "Banos de la Encina",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
+      "date": "2024-09-27T23:16:40.628Z",
+      "notes": "yuyy",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
+        "lat": "38.41055825094609",
+        "lng": "-3.8012695312500004"
+      }
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "id": "7cb8",
+      "cityName": "Penamacor",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2024-09-27T23:22:53.196Z",
+      "notes": "vgfrfr",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
+        "lat": "40.245991504199026",
+        "lng": "-7.207031250000001"
+      }
+    },
+    {
+      "id": "5e17",
+      "cityName": "Arganda",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-09-27T23:23:21.707Z",
+      "notes": "wfefw",
+      "position": {
+        "lat": "40.3130432088809",
+        "lng": "-3.4716796875000004"
+      }
     }
   ]
 }
